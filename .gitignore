@@ -1,0 +1,20 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local energy readings and generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Local secrets and environment settings
+.env
+.env.*
+!.env.example
+
+# ESP Wi-Fi credentials (copy secrets.example.h to secrets.h)
+Esp_code/secrets.h
+
+# Temporary Git metadata used in this workspace
+.git-meta/
